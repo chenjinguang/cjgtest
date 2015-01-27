@@ -20,27 +20,8 @@ public class APPConfig {
 				"userid");
 	}
 
-	public static String getMobile(Context context) {
-		return CustomApplication.getInstance().getSpUtil().getStringSharedPreferencesData(context,
-				"mobile");
-	}
 
-	public static String getAuthState(Context context) {
-		return CustomApplication.getInstance().getSpUtil().getStringSharedPreferencesData(context,
-				"authstate");
-	}
-
-	public static String getUsertype(Context context) {
-		return CustomApplication.getInstance().getSpUtil().getStringSharedPreferencesData(context,
-				"usertype");
-	}
-
-	public static String getPUserId(Context context) {
-		return CustomApplication.getInstance().getSpUtil().getStringSharedPreferencesData(context,
-				"puserid");
-	}
-
-	public static String getCardBindState(Context context) {
+	public static String getCardBasdfsdfindState(Context context) {
 		return CustomApplication.getInstance().getSpUtil().getStringSharedPreferencesData(context,
 				"bindstate");
 	}
