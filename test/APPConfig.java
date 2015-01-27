@@ -14,6 +14,7 @@ public class APPConfig {
 
 	public static String USERNAME = "";
 //	public static String PASSWD = "";
+    我曾经失落失望失掉所有方向
 
 	public static String getUserID(Context context) {
 		return CustomApplication.getInstance().getSpUtil().getStringSharedPreferencesData(context,
